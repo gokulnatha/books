@@ -1,0 +1,6 @@
+OBJS=disp.o iamhere.o
+a.out:$(OBJS)
+	gcc -o a.out $(OBJS) 
+./..o:./..c 
+clean:
+	rm -f *.o

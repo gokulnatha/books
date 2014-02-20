@@ -1,0 +1,6 @@
+Log:
+		* keep dumping (writing) to the fifo by process 1. we can read from another process 2 through that fifo.
+	
+		* Another process 3 is trying to remove(unlink) that fifo. Now if we try to read from fifo through process 2 we cant.. But no error will be displayed.
+
+

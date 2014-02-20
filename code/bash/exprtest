@@ -1,0 +1,5 @@
+#!/bin/bash
+x=(10 20)
+y=30
+z=`expr ${x[0]} + ${x[1]} + $y`
+echo $z
